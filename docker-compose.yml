@@ -6,17 +6,16 @@ services:
       context: .
       dockerfile: Dockerfile
       args:
-        - ORG_NAME=Himpunan Mahasiswa Sistem Informasi
-        - ORG_TAGLINE=Bersatu, Berinovasi, Berkontribusi
-        - ORG_MISSION=Mengembangkan potensi mahasiswa Sistem Informasi melalui kegiatan akademik, riset, dan pengabdian masyarakat berbasis teknologi.
-        - ORG_VISION=Menjadi organisasi mahasiswa teknologi terdepan yang melahirkan pemimpin digital berkualitas di tingkat nasional.
-        - ORG_FOUNDED=2018
-        - ORG_MEMBERS=120+
-        - ORG_DIVISION=6
-        - ORG_EMAIL=hmsi@tazkia.ac.id
-        - ORG_LOCATION=STMIK Tazkia, Bogor
-    image: soal-1b-web
+        - ORG_NAME=Komunitas Kelas Pak Agus
+        - ORG_TAGLINE=Belajar Bareng Cloud Computing
+        - ORG_MISSION=Menguasai teknologi Docker dan DevOps untuk masa depan.
+        - ORG_VISION=Menjadi kelas Sistem Informasi yang paling solutif.
+        - ORG_FOUNDED=2026
+        - ORG_MEMBERS=35 Anggota
+        - ORG_DIVISION=3 Divisi
+        - ORG_EMAIL=apiat.abiansyah@tazkia.ac.id
+        - ORG_LOCATION=Sentul, Bogor
     container_name: soal-1b-web-container
     ports:
       - "8201:80"
-    restart: unless-stopped
+    restart: always

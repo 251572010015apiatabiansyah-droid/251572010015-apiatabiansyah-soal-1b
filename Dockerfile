@@ -25,5 +25,3 @@ RUN sed -i "s|ORG_NAME_PLACEHOLDER|${ORG_NAME}|g" /usr/share/nginx/html/index.ht
     sed -i "s|ORG_DIVISION_PLACEHOLDER|${ORG_DIVISION}|g" /usr/share/nginx/html/index.html && \
     sed -i "s|ORG_EMAIL_PLACEHOLDER|${ORG_EMAIL}|g" /usr/share/nginx/html/index.html && \
     sed -i "s|ORG_LOCATION_PLACEHOLDER|${ORG_LOCATION}|g" /usr/share/nginx/html/index.html
-
-EXPOSE 80
